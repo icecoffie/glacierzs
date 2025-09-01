@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Glacierzs</title>
+  <meta name="description" content="Glacierzs — Timeless pieces crafted for you.">
+  <link rel="icon" href="assets/logo1.png" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top border-bottom border-secondary-subtle">
+    <div class="container">
+      <a class="navbar-brand" href="#collections" aria-label="Glacierzs Home">
+        <img src="assets/logo1.png" alt="Logo Glacierzs" class="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#collections">Collections</a></li>
+          <li class="nav-item"><a class="nav-link" href="#product">Our Product</a></li>
+          <li class="nav-item"><a class="nav-link" href="#trends">Latest Trends</a></li>
+          <li class="nav-item"><a class="nav-link" href="#newsletter">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="collections" class="hero py-5">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-5">
+          <h1 class="hero-title">Glacierzs 2001</h1>
+          <p class="muted mb-4">Designed in Bekasi. Timeless pieces crafted for you.</p>
+          <div class="d-flex gap-2">
+            <a href="#product" class="btn btn-light btn-lg text-dark">Shop Now</a>
+            <a href="#trends" class="btn btn-outline-light btn-lg">Lookbook</a>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <img class="hero-img rounded-2 ms-lg-auto" src="assets/store2.png" alt="Tampilan toko Glacierzs">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- RIBBONS -->
+  <section class="ribbon-wrap" aria-label="Running promotions">
+    <div class="ribbon">
+      <span>Sk*rtz Sale</span> <span>•</span>
+      <span>60% Off On Older Product</span> <span>•</span>
+      <span>SASA LELE</span> <span>•</span>
+      <span>Sk*rtz Sale</span> <span>•</span>
+      <span>60% Off On Older Product</span> <span>•</span>
+      <span>SASA LELE</span> <span>•</span>
+      <span>Sk*rtz Sale</span> <span>•</span>
+      <span>P00Pies</span> <span>•</span>
+      <span>Sk*rtz Sale</span>
+    </div>
+    <div class="ribbon ribbon-alt">
+      <span>P00Pies</span> <span>•</span>
+      <span>Extra 16% This Week</span> <span>•</span>
+      <span>Online Only</span> <span>•</span>
+      <span>P00Pies</span> <span>•</span>
+      <span>Extra 16% This Week</span> <span>•</span>
+      <span>Online Only</span> <span>•</span>
+      <span>P00Pies</span> <span>•</span>
+      <span>Extra 16% This Week</span> <span>•</span>
+      <span>Online Only</span>
+    </div>
+  </section>
+
+  <!-- OUR PRODUCT -->
+  <main class="py-5" id="product">
+    <div class="container">
+      <div class="d-flex align-items-end justify-content-between mb-3">
+        <h2 class="section-title m-0">Our Product</h2>
+        <div class="muted small">Swipe/scroll to explore</div>
+      </div>
+
+      <!-- perbaikan: semua card ada dalam satu .row -->
+      <div class="row g-3 g-md-4">
+        <!-- 1 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card rounded-2 h-100">
+            <img class="product-thumb" src="assets/ajckt.png" alt="A Jacket">
+            <div class="p-3">
+              <div class="product-name">A Jacket</div>
+              <div class="product-meta">Outerwear • IDR 1.160.000</div>
+              <button class="btn btn-sm btn-light text-dark mt-2" data-bs-toggle="modal" data-bs-target="#detail-curtis">Detail</button>
+            </div>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card rounded-2 h-100">
+            <img class="product-thumb" src="assets/pengu.png" alt="Pengu Shirt">
+            <div class="p-3">
+              <div class="product-name">Pengu Shirt</div>
+              <div class="product-meta">Shirts • IDR 350.000</div>
+              <button class="btn btn-sm btn-light text-dark mt-2" data-bs-toggle="modal" data-bs-target="#detail-james">Detail</button>
+            </div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card rounded-2 h-100">
+            <img class="product-thumb" src="assets/bearz.png" alt="Bearz Shirt">
+            <div class="p-3">
+              <div class="product-name">Bearz Shirt</div>
+              <div class="product-meta">Shirts • IDR 300.000</div>
+              <button class="btn btn-sm btn-light text-dark mt-2" data-bs-toggle="modal" data-bs-target="#detail-brennan">Detail</button>
+            </div>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card rounded-2 h-100">
+            <img class="product-thumb" src="assets/bluegel.png" alt="Zeuz Shirt">
+            <div class="p-3">
+              <div class="product-name">Zeuz Shirt</div>
+              <div class="product-meta">Shirts • IDR 300.000</div>
+              <button class="btn btn-sm btn-light text-dark mt-2" data-bs-toggle="modal" data-bs-target="#detail-tarek">Detail</button>
+            </div>
+          </div>
+        </div>
+        <!-- 5 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card rounded-2 h-100">
+            <img class="product-thumb" src="assets/drunkbear.png" alt="Dr*nk Bear Shirt">
+            <div class="p-3">
+              <div class="product-name">Dr*nk Bear</div>
+              <div class="product-meta">Shirt • IDR 500.000</div>
+              <button class="btn btn-sm btn-light text-dark mt-2" data-bs-toggle="modal" data-bs-target="#detail-brice">Detail</button>
+            </div>
+          </div>
+        </div>
+        <!-- 6 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card rounded-2 h-100">
+            <img class="product-thumb" src="assets/duckmny.png" alt="Duckmny Shirt">
+            <div class="p-3">
+              <div class="product-name">Duckmny Shirt</div>
+              <div class="product-meta">Shirts • IDR 300.000</div>
+              <button class="btn btn-sm btn-light text-dark mt-2" data-bs-toggle="modal" data-bs-target="#detail-oksana">Detail</button>
+            </div>
+          </div>
+        </div>
+        <!-- 7 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card rounded-2 h-100">
+            <img class="product-thumb" src="assets/mona.png" alt="Mona Shirt">
+            <div class="p-3">
+              <div class="product-name">Mona Shirt</div>
+              <div class="product-meta">Shirts • IDR 600.000</div>
+              <button class="btn btn-sm btn-light text-dark mt-2" data-bs-toggle="modal" data-bs-target="#detail-ella">Detail</button>
+            </div>
+          </div>
+        </div>
+        <!-- 8 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card rounded-2 h-100">
+            <img class="product-thumb" src="assets/buckethat.png" alt="Mona Bucket">
+            <div class="p-3">
+              <div class="product-name">Mona Bucket</div>
+              <div class="product-meta">Bucket • IDR 260.000</div>
+              <button class="btn btn-sm btn-light text-dark mt-2" data-bs-toggle="modal" data-bs-target="#detail-uxite">Detail</button>
+            </div>
+          </div>
+        </div>
+        <!-- 9 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card rounded-2 h-100">
+            <img class="product-thumb" src="assets/pillow.png" alt="Skirtz Pillow">
+            <div class="p-3">
+              <div class="product-name">Skirtz Pillow</div>
+              <div class="product-meta">Pillow • IDR 990.000</div>
+              <button class="btn btn-sm btn-light text-dark mt-2" data-bs-toggle="modal" data-bs-target="#detail-pillow">Detail</button>
+            </div>
+          </div>
+        </div>
+        <!-- 10 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card rounded-2 h-100">
+            <img class="product-thumb" src="assets/box.png" alt="Box Monaps">
+            <div class="p-3">
+              <div class="product-name">Box Monaps</div>
+              <div class="product-meta">Box • FREE</div>
+              <button class="btn btn-sm btn-light text-dark mt-2" data-bs-toggle="modal" data-bs-target="#detail-box">Detail</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pagination dots (dekoratif) -->
+      <div class="text-center my-4" aria-hidden="true">
+        <span class="mx-1">•</span><span class="mx-1">•</span><span class="mx-1">•</span>
+      </div>
+    </div>
+  </main>
+
+  <!-- RIBBON SPLIT -->
+  <section class="ribbon-wrap" aria-label="Archive promotions">
+    <div class="ribbon">
+      <span>60% Off On Older Collections</span> <span>•</span>
+      <span>Archive Sale</span> <span>•</span>
+      <span>Men’s Archive</span> <span>•</span>
+      <span>60% Off On Older Collections</span> <span>•</span>
+      <span>Archive Sale</span> <span>•</span>
+      <span>Men’s Archive</span> <span>•</span>
+      <span>60% Off On Older Collections</span> <span>•</span>
+      <span>Archive Sale</span> <span>•</span>
+      <span>Men’s Archive</span>
+    </div>
+  </section>
+
+  <!-- LATEST TRENDS -->
+  <section id="trends" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Latest Trends</h2>
+
+      <div id="carouselTrends" class="carousel slide" data-bs-ride="false" aria-label="Trends carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row g-3 g-md-4">
+              <div class="col-12 col-md-4">
+                <div class="product-card rounded-2">
+                  <img class="product-thumb" src="assets/store1.png" alt="Store: Mona">
+                  <div class="p-3">
+                    <div class="product-name">Mona</div>
+                    <div class="product-meta">Store</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="product-card rounded-2">
+                  <img class="product-thumb" src="assets/store2.png" alt="Store: Heaven">
+                  <div class="p-3">
+                    <div class="product-name">Heaven</div>
+                    <div class="product-meta">Store</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="product-card rounded-2">
+                  <img class="product-thumb" src="assets/store4.png" alt="Store: Pinkiez">
+                  <div class="p-3">
+                    <div class="product-name">Pinkiez</div>
+                    <div class="product-meta">Store</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="row g-3 g-md-4">
+              <div class="col-12 col-md-4">
+                <div class="product-card rounded-2">
+                  <img class="product-thumb" src="assets/store4.png" alt="Store: Pinkiez">
+                  <div class="p-3">
+                    <div class="product-name">Pinkiez</div>
+                    <div class="product-meta">Store</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="product-card rounded-2">
+                  <img class="product-thumb" src="assets/store1.png" alt="Store: Mona">
+                  <div class="p-3">
+                    <div class="product-name">Mona</div>
+                    <div class="product-meta">Store</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="product-card rounded-2">
+                  <img class="product-thumb" src="assets/store2.png" alt="Store: Heaven">
+                  <div class="p-3">
+                    <div class="product-name">Heaven</div>
+                    <div class="product-meta">Store</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="d-flex justify-content-center gap-3 mt-3">
+          <button class="btn btn-outline-light btn-sm" data-bs-target="#carouselTrends" data-bs-slide="prev">Prev</button>
+          <button class="btn btn-light btn-sm text-dark" data-bs-target="#carouselTrends" data-bs-slide="next">Next</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DAILY CLASSICS PROMO -->
+  <section class="py-5" id="promo">
+    <div class="container">
+      <div class="promo rounded-2 overflow-hidden">
+        <div class="row g-0 align-items-stretch">
+          <div class="col-12 col-md-4">
+            <img src="assets/logo1.png" alt="Daily Classics A">
+          </div>
+          <div class="col-12 col-md-4 d-flex flex-column justify-content-center p-4 p-lg-5">
+            <h3 class="mb-3">✶ Daily Classics</h3>
+            <p class="muted mb-4">Make it your own on a daily basis. Mix & match staples for effortless looks.</p>
+            <div class="d-flex gap-2">
+              <a href="#product" class="btn btn-light text-dark">Shop Classics</a>
+              <a href="#trends" class="btn btn-outline-light">Learn More</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="assets/monapeng.png" alt="Daily Classics B">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section id="newsletter" class="py-5">
+    <div class="container">
+      <div class="newsletter rounded-2 p-4 p-lg-5">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-6">
+            <h3 class="section-title m-0">Uncover Timeless Pieces</h3>
+            <p class="muted mb-0">Get exclusive offers & new arrivals straight to your inbox.</p>
+          </div>
+          <div class="col-lg-6">
+            <form class="row g-2 justify-content-lg-end">
+              <div class="col-8 col-sm-9">
+                <label class="visually-hidden" for="email-newsletter">Email</label>
+                <input id="email-newsletter" type="email" class="form-control form-control-lg bg-dark text-white border-secondary" placeholder="Enter your email">
+              </div>
+              <div class="col-4 col-sm-3 d-grid">
+                <button class="btn btn-light btn-lg text-dark" type="button">Sign Up</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <small>© 2025 Glacierzs — All Rights Reserved.</small>
+    </div>
+  </footer>
+
+  <!-- ====== MODALS DETAIL ====== -->
+  <!-- A Jacket -->
+  <div class="modal fade" id="detail-curtis" tabindex="-1" aria-labelledby="label-curtis" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark text-white border-secondary">
+        <div class="modal-header border-secondary">
+          <h5 class="modal-title" id="label-curtis">A Jacket</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3">
+            <div class="col-md-6"><img src="assets/ajckt.png" alt="A Jacket" class="w-100 rounded-2 border border-secondary"></div>
+            <div class="col-md-6">
+              <p class="mb-1 text-secondary">Outerwear</p>
+              <h6 class="mb-3">IDR 1.160.000</h6>
+              <p class="text-secondary">Jaket ringan potongan modern. Bahan tahan angin dengan lining mesh, nyaman dipakai harian.</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer border-secondary">
+          <a href="#product" class="btn btn-outline-light">Back to Products</a>
+          <button type="button" class="btn btn-light text-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pengu Shirt -->
+  <div class="modal fade" id="detail-james" tabindex="-1" aria-labelledby="label-james" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark text-white border-secondary">
+        <div class="modal-header border-secondary">
+          <h5 class="modal-title" id="label-james">Pengu Shirt</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3">
+            <div class="col-md-6"><img src="assets/pengu.png" alt="Pengu Shirt" class="w-100 rounded-2 border border-secondary"></div>
+            <div class="col-md-6">
+              <p class="mb-1 text-secondary">Shirts</p>
+              <h6 class="mb-3">IDR 350.000</h6>
+              <p class="text-secondary">Kaos grafis Pengu. Katun lembut, relaxed fit—cocok buat daily casual.</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer border-secondary">
+          <a href="#product" class="btn btn-outline-light">Back to Products</a>
+          <button type="button" class="btn btn-light text-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bearz Shirt -->
+  <div class="modal fade" id="detail-brennan" tabindex="-1" aria-labelledby="label-brennan" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark text-white border-secondary">
+        <div class="modal-header border-secondary">
+          <h5 class="modal-title" id="label-brennan">Bearz Shirt</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3">
+            <div class="col-md-6"><img src="assets/bearz.png" alt="Bearz Shirt" class="w-100 rounded-2 border border-secondary"></div>
+            <div class="col-md-6">
+              <p class="mb-1 text-secondary">Shirts</p>
+              <h6 class="mb-3">IDR 300.000</h6>
+              <p class="text-secondary">Kaos grafis Bearz dengan print tajam. Ringan dan breathable.</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer border-secondary">
+          <a href="#product" class="btn btn-outline-light">Back to Products</a>
+          <button type="button" class="btn btn-light text-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Zeuz Shirt -->
+  <div class="modal fade" id="detail-tarek" tabindex="-1" aria-labelledby="label-tarek" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark text-white border-secondary">
+        <div class="modal-header border-secondary">
+          <h5 class="modal-title" id="label-tarek">Zeuz Shirt</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3">
+            <div class="col-md-6"><img src="assets/bluegel.png" alt="Zeuz Shirt" class="w-100 rounded-2 border border-secondary"></div>
+            <div class="col-md-6">
+              <p class="mb-1 text-secondary">Shirts</p>
+              <h6 class="mb-3">IDR 300.000</h6>
+              <p class="text-secondary">Kaos grafis Zeus dengan sentuhan elektrik. Bahan katun nyaman dipakai lama.</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer border-secondary">
+          <a href="#product" class="btn btn-outline-light">Back to Products</a>
+          <button type="button" class="btn btn-light text-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dr*nk Bear -->
+  <div class="modal fade" id="detail-brice" tabindex="-1" aria-labelledby="label-brice" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark text-white border-secondary">
+        <div class="modal-header border-secondary">
+          <h5 class="modal-title" id="label-brice">Dr*nk Bear</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3">
+            <div class="col-md-6"><img src="assets/drunkbear.png" alt="Dr*nk Bear Shirt" class="w-100 rounded-2 border border-secondary"></div>
+            <div class="col-md-6">
+              <p class="mb-1 text-secondary">Shirt</p>
+              <h6 class="mb-3">IDR 500.000</h6>
+              <p class="text-secondary">Statement tee Dr*nk Bear. Print bold, potongan regular yang gampang dipadu-padankan.</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer border-secondary">
+          <a href="#product" class="btn btn-outline-light">Back to Products</a>
+          <button type="button" class="btn btn-light text-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Duckmny Shirt -->
+  <div class="modal fade" id="detail-oksana" tabindex="-1" aria-labelledby="label-oksana" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark text-white border-secondary">
+        <div class="modal-header border-secondary">
+          <h5 class="modal-title" id="label-oksana">Duckmny Shirt</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3">
+            <div class="col-md-6"><img src="assets/duckmny.png" alt="Duckmny Shirt" class="w-100 rounded-2 border border-secondary"></div>
+            <div class="col-md-6">
+              <p class="mb-1 text-secondary">Shirts</p>
+              <h6 class="mb-3">IDR 300.000</h6>
+              <p class="text-secondary">Kaos grafis Duckmny. Ringan, jatuh enak, cocok buat cuaca tropis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer border-secondary">
+          <a href="#product" class="btn btn-outline-light">Back to Products</a>
+          <button type="button" class="btn btn-light text-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mona Shirt -->
+  <div class="modal fade" id="detail-ella" tabindex="-1" aria-labelledby="label-ella" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark text-white border-secondary">
+        <div class="modal-header border-secondary">
+          <h5 class="modal-title" id="label-ella">Mona Shirt</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3">
+            <div class="col-md-6"><img src="assets/mona.png" alt="Mona Shirt" class="w-100 rounded-2 border border-secondary"></div>
+            <div class="col-md-6">
+              <p class="mb-1 text-secondary">Shirts</p>
+              <h6 class="mb-3">IDR 600.000</h6>
+              <p class="text-secondary">Kaos grafis Mona dengan feel premium. Cocok untuk styling clean maupun street.</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer border-secondary">
+          <a href="#product" class="btn btn-outline-light">Back to Products</a>
+          <button type="button" class="btn btn-light text-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mona Bucket -->
+  <div class="modal fade" id="detail-uxite" tabindex="-1" aria-labelledby="label-uxite" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark text-white border-secondary">
+        <div class="modal-header border-secondary">
+          <h5 class="modal-title" id="label-uxite">Mona Bucket</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3">
+            <div class="col-md-6"><img src="assets/buckethat.png" alt="Mona Bucket" class="w-100 rounded-2 border border-secondary"></div>
+            <div class="col-md-6">
+              <p class="mb-1 text-secondary">Bucket</p>
+              <h6 class="mb-3">IDR 260.000</h6>
+              <p class="text-secondary">Bucket hat kanvas dengan bordir Mona. Ringan, packable, siap buat sun-ready fits.</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer border-secondary">
+          <a href="#product" class="btn btn-outline-light">Back to Products</a>
+          <button type="button" class="btn btn-light text-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skirtz Pillow -->
+  <div class="modal fade" id="detail-pillow" tabindex="-1" aria-labelledby="label-pillow" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark text-white border-secondary">
+        <div class="modal-header border-secondary">
+          <h5 class="modal-title" id="label-pillow">Skirtz Pillow</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3">
+            <div class="col-md-6"><img src="assets/pillow.png" alt="Skirtz Pillow" class="w-100 rounded-2 border border-secondary"></div>
+            <div class="col-md-6">
+              <p class="mb-1 text-secondary">Pillow</p>
+              <h6 class="mb-3">IDR 990.000</h6>
+              <p class="text-secondary">Bantal dekorasi empuk dengan cover yang bisa dilepas. Naikin vibe kamar atau sofa kamu.</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer border-secondary">
+          <a href="#product" class="btn btn-outline-light">Back to Products</a>
+          <button type="button" class="btn btn-light text-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Box -->
+  <div class="modal fade" id="detail-box" tabindex="-1" aria-labelledby="label-box" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark text-white border-secondary">
+        <div class="modal-header border-secondary">
+          <h5 class="modal-title" id="label-box">Box Monaps</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3">
+            <div class="col-md-6"><img src="assets/box.png" alt="Box Monaps" class="w-100 rounded-2 border border-secondary"></div>
+            <div class="col-md-6">
+              <p class="mb-1 text-secondary">Box Monaps</p>
+              <h6 class="mb-3">FREE</h6>
+              <p class="text-secondary">Gratis box, stiker, dan gantungan keren setiap membeli t-shirt dan jacket.</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer border-secondary">
+          <a href="#product" class="btn btn-outline-light">Back to Products</a>
+          <button type="button" class="btn btn-light text-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
